@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'lexend_deca';
+    src: url('../font/lexenddeca-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../font/lexenddeca-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+  backdrop-filter: blur(3px);
+  font-family: 'lexend_deca';
+  background: rgba(0, 0, 0, 0.1);
+  
+  margin: 20px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 31%;
+  text-align: center;
+}
+
+
+body {
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.nameTitle {
+  padding: 10px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  width: 40%;
+  height: 100px;
+  background-image: url('../img/MelvinTitle.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
